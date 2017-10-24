@@ -1,0 +1,44 @@
+form {
+  text-align: right;
+
+  & > div {
+    & {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: .5em;
+    }
+
+
+
+    fieldset {
+      &.giving {
+        padding-bottom: 2em;
+        position: relative;
+        border-top: 1px solid #ddd;
+      }
+
+      div {
+        display: block;
+        text-align: left;
+        padding: .5em .5em .5em 1em;
+        text-indent: -1em;
+      }
+
+      input[type="number"] {
+        border: 1px solid #ccc;
+        right: 0;
+        position: absolute;
+
+        &:before {
+          content: "words";
+          right: 0;
+        }
+      }
+
+    }
+  }
+
+  #giving_totalLine {
+    display:block;
+    padding: 1em 0;
+  }
+}
