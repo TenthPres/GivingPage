@@ -3,126 +3,52 @@
     "name": "Church Ministry",
     "sub": [
       {
-        "name": "Compensation",
-        "sub": [
-          {"name": "Pastoral staff compensation"},
-          {"name": "Administrative staff compensation"},
-          {"name": "Sexton staff compensation"}
-        ]
+        "name": "All Regular Operations, Overhead & Salaries"
       },
       {
-        "name": "Pastoral Staff Expense",
-        "sub": [
-          {"name": "Guest Speakers"},
-          {"name": "PCA General Assembly"},
-          {"name": "Pastoral Staff Development"},
-          {"name": "Staff Expense Accounts"},
-          {"name": "Part-time music Salaries"},
-          {"name": "Part-time music FICA"},
-          {"name": "Counseling ministry"}
-        ]
+        "name": "Music Committee"
       },
       {
         "name": "Ministries",
         "sub": [
-          {"name": "Children's Bible School"},
-          {"name": "Children's Worship"},
-          {"name": "Maranatha"},
-          {"name": "Family ministry"},
-          {"name": "Nursery"},
-          {"name": "Evening Junior Church"},
-          {"name": "Membership Class"},
-          {"name": "Adult Bible School"},
-          {"name": "Tenth Women"},
-          {"name": "Library"},
-          {"name": "Tenth Men"},
-          {"name": "Diaconate Expenses"},
-          {"name": "Small Groups"},
-          {"name": "Session Expenses"},
-          {"name": "Children with Special Needs"},
-          {"name": "Deaf Ministry"},
-          {"name": "Kingdom Discipleship Commission"},
-          {"name": "Parish Expenses"},
-          {"name": "Westminster Brass"},
-          {"name": "Music"},
-          {"name": "Tenth Chamber Players"},
-          {"name": "Tenth Children's Music"},
-          {"name": "Tenth Concert Series"}
+          {
+            "name": "All Church Ministries"
+          },
+          {
+            "name": "Maranatha"
+          },
+          {
+            "name": "Library"
+          },
+          {
+            "name": "Deaf Ministry"
+          },
+          {
+            "name": "Kingdom Discipleship Commission"
+          }
         ]
       },
       {
-        "name": "Administrative",
-        "sub": [
-          {"name": "Administrative Staff Development"},
-          {"name": "Administrative Expense Account"}
-        ]
+        "name": "Audio/Video Tech Committee"
       },
       {
-        "name": "General Office",
-        "sub": [
-          {"name": "Office Supplies"},
-          {"name": "Postage"},
-          {"name": "Telephone"},
-          {"name": "Photocopy"},
-          {"name": "Printing"},
-          {"name": "Bulletin"},
-          {"name": "Bank Fees"},
-          {"name": "Advertising"},
-          {"name": "Payroll Service"},
-          {"name": "Auditors"},
-          {"name": "Information Technology"},
-          {"name": "Website (includes Live Streaming)"}
-        ]
+        "name": "Website & livestream"
       },
       {
-        "name": "Utilities",
-        "sub": [
-          {"name": "Electricity"},
-          {"name": "Gas"},
-          {"name": "Water"}
-        ]
-      },
-      {"name": "Insurance"},
-      {"name": "Property Taxes"},
-      {
-        "name": "Equipment & Furniture",
-        "sub": [
-          {"name": "Audio/video equipment"},
-          {"name": "Office equipment"},
-          {"name": "Furniture"}
-        ]
+        "name": "Advertising"
       },
       {
-        "name": "Maintenance",
-        "sub": [
-          {"name": "HVAC maintenance/repairs"},
-          {"name": "Non-capital repairs"},
-          {"name": "Organ/Piano Maintenance & Repairs"},
-          {"name": "Furniture & Equipment Maintenance & Repairs"}
-        ]
-      },
-      {
-        "name": "Operations",
-        "sub": [
-          {"name": "Operational Supplies"},
-          {"name": "Operational Services"}
-        ]
-      },
-      {
-        "name": "Hospitality",
-        "sub": [
-          {"name": "Welcome Center cards, flowers, etc."},
-          {"name": "Memorials & Installations"},
-          {"name": "Fellowship Committee"},
-          {"name": "Rental of Space/Parking"},
-          {"name": "Expository Preaching Conference"}
-        ]
+        "name": "Parking Lot"
       },
       {
         "name": "Denomination",
         "sub": [
-          {"name": "PCA Christian Education and Publications"},
-          {"name": "PCA Committee on Administration"}
+          {
+            "name": "PCA General Assembly"
+          },
+          {
+            "name": "Philadelphia Presbytery"
+          }
         ]
       }
     ]
@@ -139,80 +65,127 @@
               {
                 "name": "ACTS (Mercy) Ministries",
                 "sub": [
-                  {"name": "Angel Tree"},
-                  {"name": "Bridge Builders"},
-                  {"name": "Community Dinner"},
-                  {"name": "Fellowship Bible Study"},
-                  {"name": "Intern"},
-                  {"name": "Nursing Home Program"},
-                  {"name": "Prison Ministry"},
-                  {"name": "Books, Bibles & Tracts"},
-                  {"name": "Conferences & Seminars"},
-                  {"name": "Website-related"}
+                  {
+                    "name": "All Acts Missions"
+                  },
+                  {
+                    "name": "Angel Tree"
+                  },
+                  {
+                    "name": "Bridge Builders"
+                  },
+                  {
+                    "name": "Community Dinner"
+                  },
+                  {
+                    "name": "Fellowship Bible Study"
+                  }
                 ]
               },
-              {"name": "Vocational Ministry"},
               {
                 "name": "Medical Campus Outreach",
                 "sub": [
-                  {"name": "MCO-Employee"},
-                  {"name": "Development/Training"},
-                  {"name": "Student ministry"},
-                  {"name": "Office supplies"},
-                  {"name": "Office equipment/software"},
-                  {"name": "General"},
-                  {"name": "Fundraising"},
-                  {"name": "Tenth Healthcare Fellowship"},
-                  {"name": "Summer Medical Institute"}
+                  {
+                    "name": "General"
+                  },
+                  {
+                    "name": "Student ministry"
+                  },
+                  {
+                    "name": "Tenth Healthcare Fellowship"
+                  },
+                  {
+                    "name": "Summer Medical Institute"
+                  }
                 ]
               },
-              {"name": "Partner Care & Hospitality"},
-              {"name": "Tenth College Fellowship"},
-              {"name": "Tenth City Network"},
-              {"name": "Playgroup"},
-              {"name": "Boice Study Center"},
-              {"name": "Metro Office Expenses"},
-              {"name": "Evangelistic Events & Materials"}
+              {
+                "name": "Tenth College Fellowship"
+              },
+              {
+                "name": "Tenth City Network"
+              },
+              {
+                "name": "Playgroup"
+              },
+              {
+                "name": "Boice Center"
+              }
             ]
           },
           {
-            "name": "Metro Partners (Organizations)",
+            "name": "Metro Partners",
             "sub": [
-              {"name": "Alpha Pregnancy Services, Inc."},
-              {"name": "Children's Jubilee Fund"},
-              {"name": "Christian Medical & Dental Assoc. (CMDA/Stoudt)"},
-              {"name": "The City School"},
-              {"name": "Esperanza"},
-              {"name": "Harvest USA"},
-              {"name": "Neighborhood Crusades"},
-              {"name": "Philadelphia Access Center"},
-              {"name": "Philadelphia Access Center (Welch)"},
-              {"name": "Place of Refuge"},
-              {"name": "Whosoever Gospel Mission"}
+              {
+                "name": "Alpha Pregnancy Services, Inc."
+              },
+              {
+                "name": "Children's Jubilee Fund"
+              },
+              {
+                "name": "Christian Medical & Dental Assoc. (CMDA/Stoudt)"
+              },
+              {
+                "name": "The City School"
+              },
+              {
+                "name": "Esperanza"
+              },
+              {
+                "name": "Harvest USA"
+              },
+              {
+                "name": "Neighborhood Crusades"
+              },
+              {
+                "name": "Philadelphia Access Center"
+              },
+              {
+                "name": "Philadelphia Access Center (Welch)"
+              },
+              {
+                "name": "Place of Refuge"
+              },
+              {
+                "name": "Whosoever Gospel Mission"
+              }
             ]
           },
           {
             "name": "Church Planting",
             "sub": [
-              {"name": "Evangelization for Indonesian Reformed Mission (Soejanto)"},
-              {"name": "Mercy Hill Presbyterian Church (Henry)"},
-              {"name": "Rock of Israel (Klett)"},
-              {"name": "Rock of Israel (Kalinovsky)"},
-              {"name": "Epiphany Camden (Logan)"},
-              {"name": "Epiphany Camden (Grant)"},
-              {"name": "Epiphany Camden (Chin)"},
-              {"name": "SW Philadelphia/Epiphany Plant (Gray)"},
-              {"name": "NE Community Church (Chung)"},
-              {"name": "NE Community Church (Styrd)"},
-              {"name": "NE Community Church (Tauriello)"},
-              {"name": "Brazilian Church Plant"},
-              {"name": "Church Plant Regional Coordinator (Finn)"},
-              {"name": "Church Planter Coach (McDowell)"},
-              {"name": "PCA Mission to North America support"}
+              {
+                "name": "Evangelization for Indonesian Reformed Mission (Soejanto)"
+              },
+              {
+                "name": "Mercy Hill Presbyterian Church (Henry)"
+              },
+              {
+                "name": "Rock of Israel (Klett)"
+              },
+              {
+                "name": "Epiphany Camden (Logan)"
+              },
+              {
+                "name": "SW Philadelphia/Epiphany Plant (Gray)"
+              },
+              {
+                "name": "NE Community Church (Chung)"
+              },
+              {
+                "name": "Brazilian Church Plant"
+              },
+              {
+                "name": "Church Plant Regional Coordinator (Finn)"
+              },
+              {
+                "name": "Church Planting Coach (McDowell)"
+              },
+              {
+                "name": "PCA Mission to North America"
+              }
             ]
-          },
-          {"name": "MO Personnel Expenses"},
-          {"name": "Presbytery"}
+          }
         ]
       },
       {
@@ -221,23 +194,51 @@
           {
             "name": "Muslims",
             "sub": [
-              {"name":"John (Middle East)"},
-              {"name":"B, Dennis & Judy (U.S.)"},
-              {"name":"C, Nathan & Lynn (North Africa)"},
-              {"name":"K, Fayek & Nancy (North Africa)"},
-              {"name":"K, Steve & Betsy (Middle East)"},
-              {"name":"L, Jean (Middle East)"},
-              {"name":"M, Ed & Naphtili (Middle East)"},
-              {"name":"M, Matt & Tara (West Africa)"},
-              {"name":"Y, Keith & Ruth (Middle East)"},
-              {"name":"Zaka, Anees & Fareda (U.S.)"},
               {
-                "name":"Turkic World",
+                "name": "John (Middle East)"
+              },
+              {
+                "name": "B, Dennis & Judy (U.S.)"
+              },
+              {
+                "name": "C, Nathan & Lynn (North Africa)"
+              },
+              {
+                "name": "K, Fayek & Nancy (North Africa)"
+              },
+              {
+                "name": "K, Steve & Betsy (Middle East)"
+              },
+              {
+                "name": "L, Jean (Middle East)"
+              },
+              {
+                "name": "M, Ed & Naphtili (Middle East)"
+              },
+              {
+                "name": "M, Matt & Tara (West Africa)"
+              },
+              {
+                "name": "Y, Keith & Ruth (Middle East)"
+              },
+              {
+                "name": "Zaka, Anees & Fareda (U.S.)"
+              },
+              {
+                "name": "Turkic World",
                 "sub": [
-                  {"name":"L, John & Terri (Middle East)"},
-                  {"name":"P, Harold & Becky (Middle East)"},
-                  {"name":"Support for pastors"},
-                  {"name":"Intern with pastors"}
+                  {
+                    "name": "L, John & Terri (Middle East)"
+                  },
+                  {
+                    "name": "P, Harold & Becky (Middle East)"
+                  },
+                  {
+                    "name": "Support for pastors"
+                  },
+                  {
+                    "name": "Intern with pastors"
+                  }
                 ]
               }
             ]
@@ -245,20 +246,42 @@
           {
             "name": "Africans",
             "sub": [
-              {"name":"Dyaji, Joseph"},
-              {"name":"Cassidy, Micahel & Carol (South Africa)"},
-              {"name":"Cropsey, John & Jessica (Burundi)"},
-              {"name":"Frank, Paul & Maggie (Wycliffe)"},
-              {"name":"Kempen, John & Lori"},
-              {"name":"Smith, Donald & Faye"},
               {
-                "name":"Liberia",
+                "name": "Dyaji, Joseph"
+              },
+              {
+                "name": "Cassidy, Micahel & Carol (South Africa)"
+              },
+              {
+                "name": "Cropsey, John & Jessica (Burundi)"
+              },
+              {
+                "name": "Frank, Paul & Maggie (Wycliffe)"
+              },
+              {
+                "name": "Kempen, John & Lori"
+              },
+              {
+                "name": "Smith, Donald & Faye"
+              },
+              {
+                "name": "Liberia",
                 "sub": [
-                  {"name":"Liberian pastor's support"},
-                  {"name":"Theological training scholarship fund"},
-                  {"name":"Church Planing"},
-                  {"name":"Church expenses & renovations"},
-                  {"name":"New Hope Liberia education"}
+                  {
+                    "name": "Liberian pastor's support"
+                  },
+                  {
+                    "name": "Theological training scholarship fund"
+                  },
+                  {
+                    "name": "Church Planing"
+                  },
+                  {
+                    "name": "Church expenses & renovations"
+                  },
+                  {
+                    "name": "New Hope Liberia education"
+                  }
                 ]
               }
             ]
@@ -266,126 +289,207 @@
           {
             "name": "Asians",
             "sub": [
-              {"name":"L, Bill & Debbie"},
-              {"name":"C, Craig & Yumiko (Japan)"},
-              {"name":"C, Rebecca (East Asia)"},
-              {"name":"Esaki, Koji & Marcia (Japan)"},
-              {"name":"F, Todd & Kathleen (South Asia)"},
-              {"name":"G, M & M (North Asia)"},
-              {"name":"Housholder, David & Linda (U.S.)"},
-              {"name": "Mainland China Seminary-CMI"},
-              {"name": "M, Chris & Karen (East Asia)"},
-              {"name": "M, Scott & Vicky (East Asia)"},
-              {"name": "N, Grant & Gretchen (East Asia)"},
-              {"name": "Oh, Michael & Pearl (Japan)"},
-              {"name": "Blair Scholarship (Christ Bible Seminary)"},
-              {"name": "Pongdamrongsap, Boon Chu (Southeast Asia)"},
-              {"name": "R, Steve (South Asia)"},
-              {"name": "S, Matt & Evie"},
-              {"name": "T, Calvin & Geeta (South Asia)"},
-              {"name": "Wong, Moses & Eunice (Taiwan)"}
+              {
+                "name": "L, Bill & Debbie"
+              },
+              {
+                "name": "C, Craig & Yumiko (Japan)"
+              },
+              {
+                "name": "C, Rebecca (East Asia)"
+              },
+              {
+                "name": "Esaki, Koji & Marcia (Japan)"
+              },
+              {
+                "name": "F, Todd & Kathleen (South Asia)"
+              },
+              {
+                "name": "G, M & M (North Asia)"
+              },
+              {
+                "name": "Housholder, David & Linda (U.S.)"
+              },
+              {
+                "name": "Mainland China Seminary-CMI"
+              },
+              {
+                "name": "M, Chris & Karen (East Asia)"
+              },
+              {
+                "name": "M, Scott & Vicky (East Asia)"
+              },
+              {
+                "name": "N, Grant & Gretchen (East Asia)"
+              },
+              {
+                "name": "Oh, Michael & Pearl (Japan)"
+              },
+              {
+                "name": "Blair Scholarship (Christ Bible Seminary)"
+              },
+              {
+                "name": "Pongdamrongsap, Boon Chu (Southeast Asia)"
+              },
+              {
+                "name": "R, Steve (South Asia)"
+              },
+              {
+                "name": "S, Matt & Evie"
+              },
+              {
+                "name": "T, Calvin & Geeta (South Asia)"
+              },
+              {
+                "name": "Wong, Moses & Eunice (Taiwan)"
+              }
             ]
           },
           {
             "name": "Europeans",
             "sub": [
-              {"name": "McKay, Norman & Alison (Glasgow Plant)"},
-              {"name": "Cashman, Stuart (Brentford, London Plant)"},
-              {"name": "Jones, Gethin (Ealing, London)"},
-              {"name": "Lepadatu, Liviu (Romanian Plant)"},
-              {"name": "K, Philip & Joy (Greece)"},
-              {"name": "Vos, Nelly"}
+              {
+                "name": "McKay, Norman & Alison (Glasgow Plant)"
+              },
+              {
+                "name": "Cashman, Stuart (Brentford, London Plant)"
+              },
+              {
+                "name": "Jones, Gethin (Ealing, London)"
+              },
+              {
+                "name": "Lepadatu, Liviu (Romanian Plant)"
+              },
+              {
+                "name": "K, Philip & Joy (Greece)"
+              },
+              {
+                "name": "Vos, Nelly"
+              }
             ]
           },
           {
             "name": "Latin Americans",
             "sub": [
-              {"name": "Hogar la Providencia"},
-              {"name": "Cedeño, Omar & Jen"},
-              {"name": "Columbian Presbytery Development"},
-              {"name": "Columbian Church Planters"},
-              {"name": "Gospel through Columbia"},
-              {"name": "Leal, Jaime (Columbia)"}
+              {
+                "name": "Hogar la Providencia"
+              },
+              {
+                "name": "Cedeño, Omar & Jen"
+              },
+              {
+                "name": "Columbian Presbytery Development"
+              },
+              {
+                "name": "Columbian Church Planters"
+              },
+              {
+                "name": "Gospel through Columbia"
+              },
+              {
+                "name": "Leal, Jaime (Columbia)"
+              }
             ]
           },
           {
-            "name": "Others",
-            "sub": [
-              {"name": "Refugee Ministry"}
-            ]
+            "name": "Refugee Ministry"
           },
           {
             "name": "Seminaries and outreach to students",
             "sub": [
               {
-                "name": "Internationals Outreach",
-                "sub": [
-                  {"name": "Personnel"},
-                  {"name": "Director expense account"},
-                  {"name": "Guest Speakers"},
-                  {"name": "Retreat"},
-                  {"name": "Dinner & Social Programs"},
-                  {"name": "Sunday Refreshments"},
-                  {"name": "Conversational English"},
-                  {"name": "Leadership Team"},
-                  {"name": "Photocopy, Postage & Other Supplies"},
-                  {"name": "Bank Service Charges"},
-                  {"name": "Dues, Subscriptions & Conferences"},
-                  {"name": "Communion Supplies"},
-                  {"name": "Transportation"},
-                  {"name": "Meals"}
-                ]
+                "name": "Aix En Provence Reformed Seminary (France)"
               },
-              {"name": "Aix En Provence Reformed Seminary (France)"},
-              {"name": "Borgman-Shade, Lani (Charis House)"},
-              {"name": "Gilmer, Charles & Rebecca (IMPACT)"},
-              {"name": "Boice Award"}
+              {
+                "name": "Borgman-Shade, Lani (Charis House)"
+              },
+              {
+                "name": "Gilmer, Charles & Rebecca (IMPACT)"
+              }
             ]
           },
           {
             "name": "Mobilization & Support",
             "sub": [
-              {"name": "Mission to the World (PCA) office support"},
-              {"name": "Thompson, Neil & Wannee (OMF)"},
+              {
+                "name": "Mission to the World (PCA) office support"
+              },
+              {
+                "name": "Thompson, Neil & Wannee (OMF)"
+              },
               {
                 "name": "Tenth GO Education & Pastoral Care",
                 "sub": [
-                  {"name": "Benevolence Fund for national partners"},
-                  {"name": "Children's GO Curriculum & WOW"},
-                  {"name": "GO Education & Mentoring"},
-                  {"name": "GO Leadership Development"},
-                  {"name": "Global Outreach Conference"},
-                  {"name": "Staff GO travel & Pastoral Care"}
+                  {
+                    "name": "All GO Programs"
+                  },
+                  {
+                    "name": "Benevolence Fund for national partners"
+                  }
                 ]
               },
               {
-                "name": "Grace House",
-                "sub": [
-                  {"name": "Net Operating Expenses"},
-                  {"name": "Capital Repairs"}
-                ]
+                "name": "Grace House"
               }
             ]
           },
           {
             "name": "Retired Partners",
             "sub": [
-              {"name": "Goddard, Fay"},
-              {"name": "Johnson, Mary"},
-              {"name": "Perry, Jon & Mary"},
-              {"name": "Pinneo, Lois"},
-              {"name": "Rudy, Ken & Donna"},
-              {"name": "Villa, Juan & Rosa"}
+              {
+                "name": "Goddard, Fay"
+              },
+              {
+                "name": "Johnson, Mary"
+              },
+              {
+                "name": "Perry, Jon & Mary"
+              },
+              {
+                "name": "Pinneo, Lois"
+              },
+              {
+                "name": "Rudy, Ken & Donna"
+              },
+              {
+                "name": "Villa, Juan & Rosa"
+              }
             ]
-          },
-          {"name": "GO Personnel & Administrative Expenses"}
+          }
         ]
       },
-      {"name": "Tenth Church Preschool"},
-      {"name": "Tenth Church Violin School"}
+      {
+        "name": "Tenth Church Preschool"
+      }
     ]
   },
-  {"name": "Building Improvement Fund"},
-  {"name": "Deacon's Fund"},
-  {"name": "Capital Campaign"}
+  {
+    "name": "Building Improvement Fund",
+    "sub": [
+      {
+        "name": "All Building Fund Projects"
+      },
+      {
+        "name": "Fellowship Hall Renovations"
+      },
+      {
+        "name": "Open Source Alarm System"
+      },
+      {
+        "name": "Sanctuary Plaster & Painting"
+      },
+      {
+        "name": "Sanctuary Lighting"
+      },
+      {
+        "name": "Catacombs Lighting"
+      }
+    ]
+  },
+  {
+    "name": "Deacon's Fund"
+  },
+  {
+    "name": "Capital Campaign"
+  }
 ]
