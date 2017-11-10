@@ -53,7 +53,13 @@ function createFormFromLoadedJson() {
         var select = document.createElement("select"),
             fieldset = document.createElement("fieldset"),
             selects = document.createElement("div"),
+            memo = document.createElement("input"),
             amount = document.createElement("input");
+
+        // configure the memo input
+        memo.type = "text";
+        memo.placeholder = "Memo (optional)";
+        memo.classList.add("giving_memo");
 
         // configure the amount input & span
         amount.type = "number";
@@ -67,6 +73,7 @@ function createFormFromLoadedJson() {
         // place the stuff on the page
         selects.appendChild(select);
         fieldset.appendChild(selects);
+        fieldset.appendChild(memo);
         fieldset.appendChild(amount);
         fieldset.classList.add("giving");
         fieldsetContainer.appendChild(fieldset);
