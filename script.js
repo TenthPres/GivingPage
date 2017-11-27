@@ -1,5 +1,5 @@
 var undesignatedElement = {
-    "name": "Undesignated"
+    "name": "No Preference"
 };
 
 
@@ -47,7 +47,6 @@ function createFormFromLoadedJson() {
 
     // Populate the initial fieldset
     addDonationFieldset();
-
 
     function addDonationFieldset() {
         var select = document.createElement("select"),
@@ -105,9 +104,6 @@ function createFormFromLoadedJson() {
         totals.innerHTML = "Total: $ " + total.toFixed(2);
     }
 
-
-
-
     function insertUndesignateds(funds) {
         if (funds !== undefined && funds.length > 1) {
             funds.unshift(undesignatedElement);
@@ -139,7 +135,6 @@ function createFormFromLoadedJson() {
     }
 
     function handleFundSelection() {
-
         var selectElt = this,
             selectedO = selectElt.options[selectElt.selectedIndex];
 

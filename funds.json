@@ -18,27 +18,36 @@
             "name": "Maranatha"
           },
           {
+            "name": "Kingdom Discipleship Commission"
+          },
+          {
             "name": "Library"
           },
           {
             "name": "Deaf Ministry"
-          },
-          {
-            "name": "Kingdom Discipleship Commission"
           }
         ]
       },
       {
-        "name": "Audio/Video Tech Committee"
+        "name": "Audio/Video Tech"
       },
       {
-        "name": "Website & livestream"
+        "name": "Sanctuary Sound"
       },
       {
-        "name": "Advertising"
+        "name": "Internet – Livestream"
       },
       {
-        "name": "Parking Lot"
+        "name": "Radio Broadcasting"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "Advertising & Promotion"
+      },
+      {
+        "name": "Parking Subsidies"
       },
       {
         "name": "Denomination",
@@ -57,8 +66,14 @@
     "name": "Outreach",
     "sub": [
       {
+        "name": "All Outreach"
+      },
+      {
         "name": "Metro Outreach",
         "sub": [
+          {
+            "name": "All Metro Outreach Missions"
+          },
           {
             "name": "Reaching Center City (Tenth Ministries)",
             "sub": [
@@ -69,16 +84,16 @@
                     "name": "All Acts Missions"
                   },
                   {
-                    "name": "Angel Tree"
-                  },
-                  {
-                    "name": "Bridge Builders"
+                    "name": "Fellowship Bible Study"
                   },
                   {
                     "name": "Community Dinner"
                   },
                   {
-                    "name": "Fellowship Bible Study"
+                    "name": "Angel Tree"
+                  },
+                  {
+                    "name": "Bridge Builders"
                   }
                 ]
               },
@@ -141,9 +156,6 @@
                 "name": "Philadelphia Access Center"
               },
               {
-                "name": "Philadelphia Access Center (Welch)"
-              },
-              {
                 "name": "Place of Refuge"
               },
               {
@@ -192,10 +204,13 @@
         "name": "Global Outreach",
         "sub": [
           {
+            "name": "All Global Outreach Missions"
+          },
+          {
             "name": "Muslims",
             "sub": [
               {
-                "name": "John (Middle East)"
+                "name": "All missions to the Muslim World"
               },
               {
                 "name": "B, Dennis & Judy (U.S.)"
@@ -228,16 +243,13 @@
                 "name": "Turkic World",
                 "sub": [
                   {
+                    "name": "All to the Turkic World"
+                  },
+                  {
                     "name": "L, John & Terri (Middle East)"
                   },
                   {
                     "name": "P, Harold & Becky (Middle East)"
-                  },
-                  {
-                    "name": "Support for pastors"
-                  },
-                  {
-                    "name": "Intern with pastors"
                   }
                 ]
               }
@@ -246,6 +258,9 @@
           {
             "name": "Africans",
             "sub": [
+              {
+                "name": "All missions to the African World"
+              },
               {
                 "name": "Dyaji, Joseph"
               },
@@ -268,6 +283,9 @@
                 "name": "Liberia",
                 "sub": [
                   {
+                    "name": "All missions to Liberia"
+                  },
+                  {
                     "name": "Liberian pastor's support"
                   },
                   {
@@ -289,6 +307,9 @@
           {
             "name": "Asians",
             "sub": [
+              {
+                "name": "All missions to the Asian World"
+              },
               {
                 "name": "L, Bill & Debbie"
               },
@@ -349,6 +370,9 @@
             "name": "Europeans",
             "sub": [
               {
+                "name": "All missions to Europe"
+              },
+              {
                 "name": "McKay, Norman & Alison (Glasgow Plant)"
               },
               {
@@ -371,6 +395,9 @@
           {
             "name": "Latin Americans",
             "sub": [
+              {
+                "name": "All missions to the Latin American World"
+              },
               {
                 "name": "Hogar la Providencia"
               },
@@ -397,6 +424,9 @@
           {
             "name": "Seminaries and outreach to students",
             "sub": [
+              {
+                "name": "As the Global Outreach Commission may determine"
+              },
               {
                 "name": "Aix En Provence Reformed Seminary (France)"
               },
@@ -479,6 +509,9 @@
         "name": "Sanctuary Plaster & Painting"
       },
       {
+        "name": "Exterior Repairs & Painting"
+      },
+      {
         "name": "Sanctuary Lighting"
       },
       {
@@ -490,6 +523,6 @@
     "name": "Deacon's Fund"
   },
   {
-    "name": "Capital Campaign"
+    "name": "Capital Campaign for 1710 Spruce"
   }
 ]
