@@ -1,6 +1,10 @@
 var undesignatedElement = {
-    "name": "No Preference"
-};
+        "name": "No Preference"
+    },
+    undesignatedFirstElement = {
+        "name": "No Designation"
+    };
+
 
 
 var scripts = document.getElementsByTagName('script'),
@@ -26,7 +30,7 @@ function createFormFromLoadedJson() {
     this.container.appendChild(form);
     form.action = "#";
     form.appendChild(fieldsetContainer);
-    insertUndesignateds(funds);
+    insertUndesignateds(funds, true);
 
     // "Add" Button
     addFundBtn.className = "btn btn-primary";
@@ -104,9 +108,12 @@ function createFormFromLoadedJson() {
         totals.innerHTML = "Total: $ " + total.toFixed(2);
     }
 
-    function insertUndesignateds(funds) {
+    function insertUndesignateds(funds, first) {
         if (funds !== undefined && funds.length > 1) {
-            funds.unshift(undesignatedElement);
+            if (first === true)
+                funds.unshift(undesignatedFirstElement);
+            else
+                funds.unshift(undesignatedElement);
             funds.forEach(function(fi) {
                 if (fi.sub !== undefined) {
                     insertUndesignateds(fi.sub);
